@@ -1,10 +1,11 @@
 ---
-title: "UAS basics"
+title: "UAS"
 author: "Lenka Miková"
 format: html
 editor: visual
 ---
 
+# Basics
 ## GCP
 
 GSP (Ground Control Point) jsou body na zemském povrchu s přesně známými souřadnicemi, které se využívají pro georeferencování dat získaných zejména v letecké fotogrammetrii a při zpracování dronových snímků pomocí SfM.
@@ -29,4 +30,5 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
 
