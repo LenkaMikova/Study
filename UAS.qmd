@@ -1,17 +1,21 @@
 ---
-title: "UAS"
-author: "LMI"
+title: "UAS basics"
+author: "Lenka Miková"
 format: html
 editor: visual
 ---
 
-## Quarto
+## GCP
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+GSP (Ground Control Point) jsou body na zemském povrchu s přesně známými souřadnicemi, které se využívají pro georeferencování dat získaných zejména v letecké fotogrammetrii a při zpracování dronových snímků pomocí SfM.
 
-## Running Code
+Jedná se o místa, jenž jsou fyzicky označena (terčem nebo křížem), jejich přesná poloha (X, Y, Z) je určena pomocí přesného geodetického měření (GPS/GNSS). Body jsou rozmístěny rovnoměrně v oblasti zájmu, měly by být viditelné na vícero snímcích a souřadnice těchto bodů se vkládají do zpracovatelského SW. Přínosem GCP je výrazné zvýšení absolutní prostorové přesnosti výsledného modelu i ortofotomapy.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## SfM
+
+SfM (Structure for Motion) je fotogrammetrická metoda určená k rekonstrukci trojrozměrné struktury z dvourozměrných obrazů, typicky fotografií pořízených z různých úhlů a pozic.
+
+Princip spočívá v tom, že specializovaný SW automaticky vyhledá společné znaky (body, rysy) na jednotlivých snímcích, odhaduje pozici a orientaci kamery pro každý snímek, a následně z těchto informací vybduje 3D model povrchu nebo objektu.
 
 ```{r}
 1 + 1
@@ -25,3 +29,4 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
