@@ -29,7 +29,7 @@ Důležité pro fotogrammetrii jsou prvky vnitřní a vnější orientace neboť
 
 **UAV** (*Unmanned Aerial Vehicle*) neboli bezpilotní stroj lze rozdělit podle velikosti (mikro, mini, malé), typu pohonu (letadlo, vrtulník, multikoptéra) nebo použitého senzoru (RGB, multispektralní, hyperspektrální, LiDARové, termální).
 
-# Zpracování dat UAS
+# Data processing
 
 Lze rozdělit do několika základních kroku:
 
@@ -62,4 +62,5 @@ Princip spočívá v tom, že specializovaný SW automaticky vyhledá společné
 ## MVS
 
 MVS (*Multi-view stereo*) zahušťuje řídké bodové mračno, přičemž umí pracovat s velmi vysokým množstvím snímků s odlišnými úhly záběru. Jeho cílem je rekonstruovat kompletní prostorový model s využitím vstupních snímků o známé poloze. Oproti SfM musí MVS znát prvky vnitřní a vnější orientace vstupních snímků. Velmi špatně funguje v prostoru s dokonalým rozptylem světla (lambertovské potvrchy).
+
 
